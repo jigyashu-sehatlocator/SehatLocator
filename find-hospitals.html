@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Find Hospitals - SehatLocator</title>
+  <link rel="stylesheet" href="find-hospitals.css" />
+  
+</head>
+<body>
+  <header>
+    <h1>🩺Find Hospitals</h1>
+  </header>
+
+  <section class="controls">
+    <input type="text" id="searchBar" placeholder="Search by hospital name or city..." />
+
+    <select id="cityFilter">
+      <option value="">All Cities</option>
+      <option value="Dehradun">Dehradun</option>
+      <option value="Haridwar">Haridwar</option>
+      <option value="Nainital">Nainital</option>
+      <!-- Add more cities -->
+    </select>
+
+    <select id="typeFilter">
+      <option value="">All Types</option>
+      <option value="Government">Government</option>
+      <option value="Private">Private</option>
+    </select>
+  </section>
+
+  <main id="hospitalList">
+    <!-- Hospitals will load here -->
+  </main>
+
+  <script src="find-hospitals.js"></script>
+</body>
+</html>

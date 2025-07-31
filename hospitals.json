@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Max Super Specialty Hospital",
+    "city": "Dehradun",
+    "type": "Private",
+    "phone": "+911234567890",
+    "map": "https://maps.google.com/?q=Max+Super+Specialty+Hospital+Dehradun",
+    "website": "https://www.maxhealthcare.in"
+  },
+  {
+    "name": "AIIMS Rishikesh",
+    "city": "Haridwar",
+    "type": "Government",
+    "phone": "+911234567891",
+    "map": "https://maps.google.com/?q=AIIMS+Rishikesh",
+    "website": "https://aiimsrishikesh.edu.in"
+  },
+  {
+    "name": "Himalayan Hospital",
+    "city": "Dehradun",
+    "type": "Private",
+    "phone": "+911234567892",
+    "map": "https://maps.google.com/?q=Himalayan+Hospital+Dehradun",
+    "website": "https://www.himalayanhospital.com"
+  }
+]

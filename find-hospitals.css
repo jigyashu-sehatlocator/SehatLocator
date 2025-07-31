@@ -1,0 +1,83 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f0f8ff;
+  color: #333;
+}
+
+header {
+  background-color: #0077b6;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 1.8rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background-color: #e0f7fa;
+}
+
+.controls input,
+.controls select {
+  padding: 0.7rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 250px;
+}
+
+#hospitalList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.hospital-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.2rem;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.15);
+  transition: transform 0.3s;
+}
+
+.hospital-card:hover {
+  transform: translateY(-5px);
+}
+
+.hospital-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #0077b6;
+}
+
+.hospital-card p {
+  margin: 0.3rem 0;
+}
+
+.hospital-card .buttons {
+  margin-top: 0.8rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.hospital-card .buttons a {
+  text-decoration: none;
+  background: #00b4d8;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: background 0.3s;
+}
+
+.hospital-card .buttons a:hover {
+  background: #0077b6;
+}
